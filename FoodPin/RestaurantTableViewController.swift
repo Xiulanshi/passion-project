@@ -64,6 +64,20 @@ class RestaurantTableViewController: UITableViewController {
 
         return cell
     }
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        // Create an option menu as an action sheet
+        let optionMenu = UIAlertController(title: nil, message: "What do you want to do?", preferredStyle: .ActionSheet)
+        
+        // Add actions to the menu
+        let cancelAction = UIAlertAction(title: "Cancel", style: .Cancel, handler: nil)
+        optionMenu.addAction(cancelAction)
+        
+        // Display the menu
+        self.presentViewController(optionMenu, animated: true, completion: nil)
+    }
+
 
 
     /*
