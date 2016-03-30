@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D0AD0FA1C7F46FF00F0FA02 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0AD0F91C7F46FF00F0FA02 /* FirstViewController.m */; };
+		6D0AD0FD1C7F472200F0FA02 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0AD0FC1C7F472200F0FA02 /* PageContentViewController.m */; };
+		6D0AD1001C7F598800F0FA02 /* SelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0AD0FF1C7F598800F0FA02 /* SelectionViewController.m */; };
+		6D0AD1021C7FD38800F0FA02 /* lab.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6D0AD1011C7FD38800F0FA02 /* lab.gif */; };
+		6D0AD1041C7FD57F00F0FA02 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D0AD1031C7FD57E00F0FA02 /* home.png */; };
+		741F5C8C4268C541D00FAB61 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F15BB69E30BB28DEF1376F /* libPods.a */; };
+		8456523D1C7C0E7C006B2610 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456523C1C7C0E7C006B2610 /* Line.m */; };
+		845652441C7C1347006B2610 /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 845652431C7C1347006B2610 /* GameView.m */; };
+		845652591C7EC26E006B2610 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845652581C7EC26E006B2610 /* AVFoundation.framework */; };
+		8456525C1C7ECA30006B2610 /* brain.mp4 in Sources */ = {isa = PBXBuildFile; fileRef = 845652571C7EC22E006B2610 /* brain.mp4 */; };
+		8456525E1C7ECA60006B2610 /* brain.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 845652571C7EC22E006B2610 /* brain.mp4 */; };
+		845652611C7ED33A006B2610 /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845652601C7ED33A006B2610 /* TutorialViewController.m */; };
+		845652641C7ED5A6006B2610 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 845652631C7ED5A6006B2610 /* iCarousel.m */; };
+		84624E6E1C796E37004B6077 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84624E6D1C796E37004B6077 /* main.m */; };
+		84624E711C796E37004B6077 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84624E701C796E37004B6077 /* AppDelegate.m */; };
+		84624E741C796E37004B6077 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84624E731C796E37004B6077 /* ViewController.m */; };
+		84624E771C796E38004B6077 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84624E751C796E38004B6077 /* Main.storyboard */; };
+		84624E7A1C796E38004B6077 /* LogicGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84624E781C796E38004B6077 /* LogicGame.xcdatamodeld */; };
+		84624E7C1C796E38004B6077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84624E7B1C796E38004B6077 /* Assets.xcassets */; };
+		84624E7F1C796E38004B6077 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84624E7D1C796E38004B6077 /* LaunchScreen.storyboard */; };
+		84624E8A1C796E39004B6077 /* LogicGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84624E891C796E39004B6077 /* LogicGameTests.m */; };
+		84624E951C796E39004B6077 /* LogicGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84624E941C796E39004B6077 /* LogicGameUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84624E861C796E39004B6077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84624E611C796E36004B6077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84624E681C796E37004B6077;
+			remoteInfo = LogicGame;
+		};
+		84624E911C796E39004B6077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84624E611C796E36004B6077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84624E681C796E37004B6077;
+			remoteInfo = LogicGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C9485DF78EE3CF035600526 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		45F15BB69E30BB28DEF1376F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0AD0F81C7F46FF00F0FA02 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		6D0AD0F91C7F46FF00F0FA02 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		6D0AD0FB1C7F472200F0FA02 /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		6D0AD0FC1C7F472200F0FA02 /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
+		6D0AD0FE1C7F598800F0FA02 /* SelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionViewController.h; sourceTree = "<group>"; };
+		6D0AD0FF1C7F598800F0FA02 /* SelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionViewController.m; sourceTree = "<group>"; };
+		6D0AD1011C7FD38800F0FA02 /* lab.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lab.gif; sourceTree = "<group>"; };
+		6D0AD1031C7FD57E00F0FA02 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		8456523B1C7C0E7C006B2610 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		8456523C1C7C0E7C006B2610 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		845652421C7C1347006B2610 /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		845652431C7C1347006B2610 /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
+		845652571C7EC22E006B2610 /* brain.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = brain.mp4; sourceTree = "<group>"; };
+		845652581C7EC26E006B2610 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8456525F1C7ED33A006B2610 /* TutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialViewController.h; sourceTree = "<group>"; };
+		845652601C7ED33A006B2610 /* TutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialViewController.m; sourceTree = "<group>"; };
+		845652621C7ED5A6006B2610 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		845652631C7ED5A6006B2610 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		84624E691C796E37004B6077 /* LogicGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogicGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84624E6D1C796E37004B6077 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84624E6F1C796E37004B6077 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84624E701C796E37004B6077 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84624E721C796E37004B6077 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84624E731C796E37004B6077 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84624E761C796E38004B6077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84624E791C796E38004B6077 /* LogicGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LogicGame.xcdatamodel; sourceTree = "<group>"; };
+		84624E7B1C796E38004B6077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84624E7E1C796E38004B6077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84624E801C796E38004B6077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84624E851C796E39004B6077 /* LogicGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogicGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84624E891C796E39004B6077 /* LogicGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogicGameTests.m; sourceTree = "<group>"; };
+		84624E8B1C796E39004B6077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84624E901C796E39004B6077 /* LogicGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogicGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84624E941C796E39004B6077 /* LogicGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogicGameUITests.m; sourceTree = "<group>"; };
+		84624E961C796E39004B6077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E46047B4F43A91D14A20B251 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84624E661C796E37004B6077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845652591C7EC26E006B2610 /* AVFoundation.framework in Frameworks */,
+				741F5C8C4268C541D00FAB61 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84624E821C796E39004B6077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84624E8D1C796E39004B6077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8456523A1C7C0E6B006B2610 /* Line */ = {
+			isa = PBXGroup;
+			children = (
+				8456523B1C7C0E7C006B2610 /* Line.h */,
+				8456523C1C7C0E7C006B2610 /* Line.m */,
+			);
+			name = Line;
+			sourceTree = "<group>";
+		};
+		8456523E1C7C0E85006B2610 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				845652421C7C1347006B2610 /* GameView.h */,
+				845652431C7C1347006B2610 /* GameView.m */,
+			);
+			name = Games;
+			sourceTree = "<group>";
+		};
+		84624E601C796E36004B6077 = {
+			isa = PBXGroup;
+			children = (
+				84624E6B1C796E37004B6077 /* LogicGame */,
+				84624E881C796E39004B6077 /* LogicGameTests */,
+				84624E931C796E39004B6077 /* LogicGameUITests */,
+				84624E6A1C796E37004B6077 /* Products */,
+				BC8C99DF01FCF0A47B7CA0B1 /* Pods */,
+				C6B2085A9521C98C2B79D9A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84624E6A1C796E37004B6077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84624E691C796E37004B6077 /* LogicGame.app */,
+				84624E851C796E39004B6077 /* LogicGameTests.xctest */,
+				84624E901C796E39004B6077 /* LogicGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84624E6B1C796E37004B6077 /* LogicGame */ = {
+			isa = PBXGroup;
+			children = (
+				84624E6F1C796E37004B6077 /* AppDelegate.h */,
+				84624E701C796E37004B6077 /* AppDelegate.m */,
+				84624E721C796E37004B6077 /* ViewController.h */,
+				84624E731C796E37004B6077 /* ViewController.m */,
+				8456525F1C7ED33A006B2610 /* TutorialViewController.h */,
+				845652601C7ED33A006B2610 /* TutorialViewController.m */,
+				845652621C7ED5A6006B2610 /* iCarousel.h */,
+				845652631C7ED5A6006B2610 /* iCarousel.m */,
+				6D0AD0F81C7F46FF00F0FA02 /* FirstViewController.h */,
+				6D0AD0F91C7F46FF00F0FA02 /* FirstViewController.m */,
+				6D0AD0FB1C7F472200F0FA02 /* PageContentViewController.h */,
+				6D0AD0FC1C7F472200F0FA02 /* PageContentViewController.m */,
+				6D0AD0FE1C7F598800F0FA02 /* SelectionViewController.h */,
+				6D0AD0FF1C7F598800F0FA02 /* SelectionViewController.m */,
+				8456523E1C7C0E85006B2610 /* Games */,
+				8456523A1C7C0E6B006B2610 /* Line */,
+				84624E751C796E38004B6077 /* Main.storyboard */,
+				84624E7B1C796E38004B6077 /* Assets.xcassets */,
+				6D0AD1011C7FD38800F0FA02 /* lab.gif */,
+				6D0AD1031C7FD57E00F0FA02 /* home.png */,
+				845652571C7EC22E006B2610 /* brain.mp4 */,
+				84624E7D1C796E38004B6077 /* LaunchScreen.storyboard */,
+				84624E801C796E38004B6077 /* Info.plist */,
+				84624E781C796E38004B6077 /* LogicGame.xcdatamodeld */,
+				84624E6C1C796E37004B6077 /* Supporting Files */,
+			);
+			path = LogicGame;
+			sourceTree = "<group>";
+		};
+		84624E6C1C796E37004B6077 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84624E6D1C796E37004B6077 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84624E881C796E39004B6077 /* LogicGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				84624E891C796E39004B6077 /* LogicGameTests.m */,
+				84624E8B1C796E39004B6077 /* Info.plist */,
+			);
+			path = LogicGameTests;
+			sourceTree = "<group>";
+		};
+		84624E931C796E39004B6077 /* LogicGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84624E941C796E39004B6077 /* LogicGameUITests.m */,
+				84624E961C796E39004B6077 /* Info.plist */,
+			);
+			path = LogicGameUITests;
+			sourceTree = "<group>";
+		};
+		BC8C99DF01FCF0A47B7CA0B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E46047B4F43A91D14A20B251 /* Pods.debug.xcconfig */,
+				3C9485DF78EE3CF035600526 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6B2085A9521C98C2B79D9A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				845652581C7EC26E006B2610 /* AVFoundation.framework */,
+				45F15BB69E30BB28DEF1376F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84624E681C796E37004B6077 /* LogicGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84624E991C796E39004B6077 /* Build configuration list for PBXNativeTarget "LogicGame" */;
+			buildPhases = (
+				D77365E176796B8630DB6E26 /* Check Pods Manifest.lock */,
+				84624E651C796E37004B6077 /* Sources */,
+				84624E661C796E37004B6077 /* Frameworks */,
+				84624E671C796E37004B6077 /* Resources */,
+				AB02413E4EE833CADECD1148 /* Embed Pods Frameworks */,
+				1A0F4B3E2F5F489B0306A1AB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogicGame;
+			productName = LogicGame;
+			productReference = 84624E691C796E37004B6077 /* LogicGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84624E841C796E39004B6077 /* LogicGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84624E9C1C796E39004B6077 /* Build configuration list for PBXNativeTarget "LogicGameTests" */;
+			buildPhases = (
+				84624E811C796E39004B6077 /* Sources */,
+				84624E821C796E39004B6077 /* Frameworks */,
+				84624E831C796E39004B6077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84624E871C796E39004B6077 /* PBXTargetDependency */,
+			);
+			name = LogicGameTests;
+			productName = LogicGameTests;
+			productReference = 84624E851C796E39004B6077 /* LogicGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84624E8F1C796E39004B6077 /* LogicGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84624E9F1C796E39004B6077 /* Build configuration list for PBXNativeTarget "LogicGameUITests" */;
+			buildPhases = (
+				84624E8C1C796E39004B6077 /* Sources */,
+				84624E8D1C796E39004B6077 /* Frameworks */,
+				84624E8E1C796E39004B6077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84624E921C796E39004B6077 /* PBXTargetDependency */,
+			);
+			name = LogicGameUITests;
+			productName = LogicGameUITests;
+			productReference = 84624E901C796E39004B6077 /* LogicGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84624E611C796E36004B6077 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Diana Elezaj";
+				TargetAttributes = {
+					84624E681C796E37004B6077 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					84624E841C796E39004B6077 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 84624E681C796E37004B6077;
+					};
+					84624E8F1C796E39004B6077 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 84624E681C796E37004B6077;
+					};
+				};
+			};
+			buildConfigurationList = 84624E641C796E37004B6077 /* Build configuration list for PBXProject "LogicGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84624E601C796E36004B6077;
+			productRefGroup = 84624E6A1C796E37004B6077 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84624E681C796E37004B6077 /* LogicGame */,
+				84624E841C796E39004B6077 /* LogicGameTests */,
+				84624E8F1C796E39004B6077 /* LogicGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84624E671C796E37004B6077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8456525E1C7ECA60006B2610 /* brain.mp4 in Resources */,
+				84624E7F1C796E38004B6077 /* LaunchScreen.storyboard in Resources */,
+				6D0AD1041C7FD57F00F0FA02 /* home.png in Resources */,
+				84624E7C1C796E38004B6077 /* Assets.xcassets in Resources */,
+				84624E771C796E38004B6077 /* Main.storyboard in Resources */,
+				6D0AD1021C7FD38800F0FA02 /* lab.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84624E831C796E39004B6077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84624E8E1C796E39004B6077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A0F4B3E2F5F489B0306A1AB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB02413E4EE833CADECD1148 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D77365E176796B8630DB6E26 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84624E651C796E37004B6077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8456525C1C7ECA30006B2610 /* brain.mp4 in Sources */,
+				845652441C7C1347006B2610 /* GameView.m in Sources */,
+				6D0AD0FD1C7F472200F0FA02 /* PageContentViewController.m in Sources */,
+				8456523D1C7C0E7C006B2610 /* Line.m in Sources */,
+				845652641C7ED5A6006B2610 /* iCarousel.m in Sources */,
+				6D0AD1001C7F598800F0FA02 /* SelectionViewController.m in Sources */,
+				84624E741C796E37004B6077 /* ViewController.m in Sources */,
+				84624E711C796E37004B6077 /* AppDelegate.m in Sources */,
+				84624E7A1C796E38004B6077 /* LogicGame.xcdatamodeld in Sources */,
+				6D0AD0FA1C7F46FF00F0FA02 /* FirstViewController.m in Sources */,
+				845652611C7ED33A006B2610 /* TutorialViewController.m in Sources */,
+				84624E6E1C796E37004B6077 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84624E811C796E39004B6077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84624E8A1C796E39004B6077 /* LogicGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84624E8C1C796E39004B6077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84624E951C796E39004B6077 /* LogicGameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84624E871C796E39004B6077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84624E681C796E37004B6077 /* LogicGame */;
+			targetProxy = 84624E861C796E39004B6077 /* PBXContainerItemProxy */;
+		};
+		84624E921C796E39004B6077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84624E681C796E37004B6077 /* LogicGame */;
+			targetProxy = 84624E911C796E39004B6077 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84624E751C796E38004B6077 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84624E761C796E38004B6077 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84624E7D1C796E38004B6077 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84624E7E1C796E38004B6077 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84624E971C796E39004B6077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84624E981C796E39004B6077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84624E9A1C796E39004B6077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E46047B4F43A91D14A20B251 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LogicGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DE.LogicGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84624E9B1C796E39004B6077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C9485DF78EE3CF035600526 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LogicGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DE.LogicGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84624E9D1C796E39004B6077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LogicGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DE.LogicGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LogicGame.app/LogicGame";
+			};
+			name = Debug;
+		};
+		84624E9E1C796E39004B6077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LogicGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DE.LogicGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LogicGame.app/LogicGame";
+			};
+			name = Release;
+		};
+		84624EA01C796E39004B6077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LogicGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DE.LogicGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LogicGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		84624EA11C796E39004B6077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LogicGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DE.LogicGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LogicGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84624E641C796E37004B6077 /* Build configuration list for PBXProject "LogicGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84624E971C796E39004B6077 /* Debug */,
+				84624E981C796E39004B6077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84624E991C796E39004B6077 /* Build configuration list for PBXNativeTarget "LogicGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84624E9A1C796E39004B6077 /* Debug */,
+				84624E9B1C796E39004B6077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84624E9C1C796E39004B6077 /* Build configuration list for PBXNativeTarget "LogicGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84624E9D1C796E39004B6077 /* Debug */,
+				84624E9E1C796E39004B6077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84624E9F1C796E39004B6077 /* Build configuration list for PBXNativeTarget "LogicGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84624EA01C796E39004B6077 /* Debug */,
+				84624EA11C796E39004B6077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84624E781C796E38004B6077 /* LogicGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84624E791C796E38004B6077 /* LogicGame.xcdatamodel */,
+			);
+			currentVersion = 84624E791C796E38004B6077 /* LogicGame.xcdatamodel */;
+			path = LogicGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84624E611C796E36004B6077 /* Project object */;
+}
